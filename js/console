@@ -1,1 +1,0 @@
-munculkanTikus(Tanah)
