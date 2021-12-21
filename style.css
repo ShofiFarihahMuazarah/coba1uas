@@ -1,0 +1,68 @@
+html{
+    position: relative;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#hero{
+    min-height: 50vh;
+}
+#contact{
+    min-height: 50vh;
+    width: 100%;
+    background-color: var(--mainColor);
+    padding-top: 0px;
+    padding-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#contact h2{
+    color: var(--tertiaryColor);
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Segoe UI", sans-serif;
+    width: 100%;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#contact h2:before, h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid var(--secondaryColor);
+    margin: auto;
+}
+#contact h2:before{
+    margin-right: 10px
+}
+#contact h2::after{
+    margin-left: 10px;
+}
+#contact ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#contact ul li{
+    list-style: none;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 99;
+    font-size: 16px;
+    color: var(--tertiaryColor);
+    margin: 20px 0;
+    margin-left: 55px;
+}
+#contact ul li img:hover{
+    box-shadow:
+            0 0 10px rgba(255,255,255,1),
+            0 0 20px rgba(255,255,255,1),
+            0 0 30px rgba(255,255,255,1);
+}
