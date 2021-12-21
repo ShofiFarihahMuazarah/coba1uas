@@ -45,9 +45,16 @@
                         <td>Fakultas</td>
                         <td>:</td>
                         <td>
-                            <td>Fakultas</td>
-                            <td>:</td>
-                            <td><input type="fakultas" name="fakultas" required></td>
+                            <select name="fakultas" >
+                                <option>--Pilih Fakultas--</option>
+                                <option>Sains dan Teknologi</option>
+                                <option>Kedokteran dan Ilmu Kesehatan</option>
+                                <option>Ekonomi</option>
+                                <option>Psikologi</option>
+                                <option>Humaniora</option>
+                                <option>Syariah</option>
+                                <option>Ilmu Tarbiyah dan Keguruan</option>
+                            </select>
                         </td>
                     </tr>
                     <tr>
